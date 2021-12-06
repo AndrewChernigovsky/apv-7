@@ -1,0 +1,2523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apetools</title>
+  <link media="all" rel="stylesheet" href="assets/css/vendor.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link media="all" rel="stylesheet" href="assets/css/styles.min.css" />
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		  <div class="container">
+		    <div class="logo-wrapper">
+		      <a href="index.html" class="logo">
+		        <img src="assets/images/icons/logo.svg" alt="logo"/>
+		      </a>
+		    </div>
+		    <div class="menu">
+		      <div class="tokken">
+		        <button type="button" class="tokken__link">
+		          <img class="tokken__icon" src="assets/images/icons/current-tokken.svg" alt="tokken"/>
+		        </button>
+		        <span class="tokken__number">0x358c...7e1f</span>
+		      </div>
+		      <div class="options">
+		        <button type="button" class="option-btn">
+		          <img class="options__icon" src="assets/images/icons/options.svg" alt="options"/>
+		        </button>
+		      </div>
+		    </div>
+		  </div>
+		</header>
+
+		<main class="main">
+			<section class="main-section">
+			  <h2 class="main-heading">Counter</h2>
+			  <div class="container">
+			    <div class="main-head">
+			      <div class="main-row">
+			        <div class="main-count-title">
+			          <span class="main-count">$242,766.15</span>
+			          <button class="btn-info" type="button">
+			            <img class="tokkens__icon" src="assets/images/icons/info.svg" alt="icon-tokken-info" />
+			          </button>
+			        </div>
+			        <span class="main-count-nomination">net worth</span>
+			      </div>
+			      <div class="main-counter-board-wrapper">
+			        <div class="main-counter-board">
+			          <span class="main-count main-count-board">$464.58</span>
+			          <span class="main-count-nomination">to harvest</span>
+			        </div>
+			        <div class="main-counter-board">
+			          <span class="main-count main-count-board">$1,750.17</span>
+			          <span class="main-count-nomination">borrowed</span>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="tabs">
+			      <ul class="tabs__header">
+			        <li data-tab="tab-one" class="tabs__btn js-tabs-btn active">Dashboard</li>
+			        <li data-tab="tab-two" class="tabs__btn js-tabs-btn">Invest</li>
+			        <li data-tab="tab-three" class="tabs__btn js-tabs-btn">Exchange</li>
+			        <li data-tab="tab-forth" class="tabs__btn js-tabs-btn">Charts</li>
+			        <li data-tab="tab-fifth" class="tabs__btn js-tabs-btn">Tools</li>
+			        <li data-tab="tab-six" class="tabs__btn js-tabs-btn">IDO</li>
+			        <li data-tab="tab-seven" class="tabs__btn js-tabs-btn">Infometrics</li>
+			      </ul>
+
+			      <div class="tabs__content tab-one active">
+			        <div class="harvest">
+			          <div class="harvest__wrapper">
+			            <div class="tokkens">
+			              <div class="tokkens__wrapper">
+			                <div class="tokkens__image">
+			                  <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                </div>
+			                <div class="tokkens__body">
+			                  <span class="tokkens__name">PancakeSwap</span>
+			                  <span class="tokkens__text"></span>
+			                </div>
+			              </div>
+			            </div>
+			            <span class="harvest__tokken-count">$189,307.29</span>
+			          </div>
+			          <div class="harvest__nomination-wrapper">
+			            <span class="harvest__nomination">$932.55 to harvest</span>
+			          </div>
+			        </div>
+
+			        <div class="harvest">
+			          <div class="harvest__wrapper">
+			            <div class="tokkens">
+			              <div class="tokkens__wrapper">
+			                <div class="tokkens__image">
+			                  <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                </div>
+			                <div class="tokkens__body">
+			                  <span class="tokkens__name">PancakeSwap</span>
+			                  <span class="tokkens__text"></span>
+			                </div>
+			              </div>
+			            </div>
+			            <div class="progress">
+			              <div class="progress__wrapper">
+			                <div class="progress__bar">
+			                  <div class="progress__value" style="width: 25%;"></div>
+			                </div>
+			              </div>
+			            </div>
+			            <span class="harvest__tokken-count">$189,307.29</span>
+			          </div>
+			          <div class="harvest__nomination-wrapper">
+			            <span class="harvest__nomination">$932.55 to harvest</span>
+			          </div>
+			        </div>
+
+			        <div class="balance-main">
+			          <div class="balance-wrapper">
+			            <div class="tokkens">
+			              <div class="tokkens__wrapper">
+			                <div class="tokkens__image">
+			                  <img class="tokkens__image" src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                </div>
+			                <div class="tokkens__body">
+			                  <span class="tokkens__name">PancakeSwap</span>
+			                </div>
+			              </div>
+			            </div>
+
+			            <div class="wrapper-balance">
+			              <div class="balance-title">
+			                <span class="balance-name">supply balance</span>
+			                <span class="balance-count">$189,307.29</span>
+			              </div>
+
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">WBNB</span>
+			                    <span class="tokkens__nomination">Wrapped BNB</span>
+			                  </div>
+			                </div>
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__body tokkens__body--right-text">
+			                    <span class="tokkens__deposit">$2,138.84</span>
+			                    <span class="tokkens__nomination">4.4173634 WBNB</span>
+			                  </div>
+			                </div>
+			              </div>
+
+			              <div class="balance-title">
+			                <span class="balance-name">borrow usage</span>
+			                <span class="balance-count">$1,751.13</span>
+			              </div>
+
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">WBNB</span>
+			                    <span class="tokkens__nomination">Wrapped BNB</span>
+			                  </div>
+			                </div>
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__body tokkens__body--right-text">
+			                    <span class="tokkens__deposit">$2,138.84</span>
+			                    <span class="tokkens__nomination">4.4173634 WBNB</span>
+			                  </div>
+			                </div>
+			              </div>
+
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">WBNB</span>
+			                    <span class="tokkens__nomination">Wrapped BNB</span>
+			                  </div>
+			                </div>
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__body tokkens__body--right-text">
+			                    <span class="tokkens__deposit">$2,138.84</span>
+			                    <span class="tokkens__nomination">4.4173634 WBNB</span>
+			                  </div>
+			                </div>
+			              </div>
+
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">WBNB</span>
+			                    <span class="tokkens__nomination">Wrapped BNB</span>
+			                  </div>
+			                </div>
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__body tokkens__body--right-text">
+			                    <span class="tokkens__deposit">$2,138.84</span>
+			                    <span class="tokkens__nomination">4.4173634 WBNB</span>
+			                  </div>
+			                </div>
+			              </div>
+
+			              <div class="balance-amount">
+			                <span class="balance-nomination">You borrowed $1,751.13 out of $14,907.91 available</span>
+			              </div>
+
+			              <div class="progress">
+			                <div class="progress__wrapper">
+			                  <div class="progress__bar">
+			                    <div class="progress__value" style="width: 34%;">
+			                      <span class="progress__value-count">34%</span>
+			                    </div>
+			                  </div>
+			                  <div class="progress__footer">
+			                    <span class="progress__text">0%</span>
+			                    <span class="progress__text">100%</span>
+			                  </div>
+			                </div>
+			              </div>
+			            </div>
+
+			            <div class="more-info">
+			              <button type="button" class="btn-link">Show less</button>
+			            </div>
+			          </div>
+			        </div>
+
+			        <div class="harvest">
+			          <div class="harvest__wrapper">
+			            <div class="tokkens">
+			              <div class="tokkens__wrapper">
+			                <div class="tokkens__image">
+			                  <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                </div>
+			                <div class="tokkens__body">
+			                  <span class="tokkens__name">PancakeSwap</span>
+			                  <span class="tokkens__text"></span>
+			                </div>
+			              </div>
+			            </div>
+			            <span class="harvest__tokken-count">$189,307.29</span>
+			          </div>
+			          <div class="harvest__nomination-wrapper">
+			            <span class="harvest__nomination">$932.55 to harvest</span>
+			          </div>
+			        </div>
+
+			        <div class="tokkens-result">
+			          <div class="tokkens">
+			            <div class="tokkens__wrapper">
+			              <div class="tokkens__image">
+			                <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			              </div>
+			              <div class="tokkens__body">
+			                <span class="tokkens__name">WBNB</span>
+			                <span class="tokkens__nomination">Wrapped BNB</span>
+			              </div>
+			            </div>
+			            <div class="tokkens__wrapper">
+			              <div class="tokkens__body tokkens__body--right-text">
+			                <span class="tokkens__deposit">$2,138.84</span>
+			                <span class="tokkens__nomination">4.4173634 WBNB</span>
+			              </div>
+			            </div>
+			          </div>
+
+			          <div class="tokkens">
+			            <div class="tokkens__wrapper">
+			              <div class="tokkens__image">
+			                <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			              </div>
+			              <div class="tokkens__body">
+			                <span class="tokkens__name">WBNB</span>
+			                <span class="tokkens__nomination">Wrapped BNB</span>
+			              </div>
+			            </div>
+			            <div class="tokkens__wrapper">
+			              <div class="tokkens__body tokkens__body--right-text">
+			                <span class="tokkens__deposit">$2,138.84</span>
+			                <span class="tokkens__nomination">4.4173634 WBNB</span>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+
+			        <div class="investment">
+			          <div class="investment-wrapper">
+			            <p class="crypto-text-md">You have 1 investment</p>
+			            <div class="table table--invenstment">
+			              <div class="table__scroll">
+			                <div class="table__wrapper">
+			                  <div class="table__row table__row--head">
+			                    <div class="table__col table__col--main">
+			                      <span class="crypto-text-sm tb-text">Vault</span>
+			                    </div>
+			                    <div class="table__col">
+			                      <span class="crypto-text-sm tb-text">APY</span>
+			                    </div>
+			                    <div class="table__col">
+			                      <span class="crypto-text-sm tb-text">TVL</span>
+			                    </div>
+			                    <div class="table__col">
+			                      <span class="crypto-text-sm tb-text">PACOCA earned</span>
+			                    </div>
+			                    <div class="table__col">
+			                      <span class="crypto-text-sm tb-text">Balance</span>
+			                    </div>
+			                  </div>
+			                  <div class="table__body">
+			                    <div class="table__row table__row--wrap">
+			                      <div class="table__col table__col--main">
+			                        <div class="tokkens">
+			                          <div class="tokkens__wrapper">
+			                            <div class="tokkens__image">
+			                              <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                            </div>
+			                            <div class="tokkens__body">
+			                              <span class="tokkens__name current">Auto PACOCA</span>
+			                              <span class="tokkens__text">Pacoca</span>
+			                            </div>
+			                          </div>
+			                        </div>
+			                      </div>
+			                      <div class="table__col">
+			                        <span class="crypto-text-tt">468%</span>
+			                      </div>
+			                      <div class="table__col">
+			                        <span class="crypto-text-tt">$8.84M</span>
+			                      </div>
+			                      <div class="table__col">
+			                        <span class="crypto-text-tt">0.0000</span>
+			                        <span class="crypto-text-sm">$0.00000</span>
+			                      </div>
+			                      <div class="table__col table__col--w">
+			                        <span class="crypto-text-tt">42.9984</span>
+			                        <span class="crypto-text-sm">$15.25</span>
+			                      </div>
+			                      <div class="table__col table__col--btn">
+			                        <button class="btn" type="button">-</button>
+			                      </div>
+			                      <div class="table__col table__col--btn">
+			                        <button class="btn" type="button">+</button>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+
+			      </div>
+
+			      <div class="tabs__content tab-two">
+			        <div class="deposit">
+  <div class="deposit__wrapper">
+    <div class="deposit__main">
+      <div class="tokkens">
+        <div class="tokkens__wrapper">
+          <div class="tokkens__image">
+            <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+          </div>
+          <div class="tokkens__body">
+            <span class="tokkens__name">Auto PACOCA</span>
+            <div class="tokkens__info">
+              <span class="tokkens__nomination">APY: 644%</span>
+              <button class="btn-info" type="button">
+                <img class="tokkens__icon" src="assets/images/icons/info.svg" alt="icon-tokken-info" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn" type="button">Deposit</button>
+    </div>
+
+    <div class="deposit__info">
+      <div class="deposit__info-wrapper">
+        <div class="deposit__column">
+          <div class="deposit__line">
+            <span class="deposit__name">Farm platform</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__name">Type</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__name">TVL</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__name">Earn</span>
+          </div>
+        </div>
+
+        <div class="deposit__column">
+          <div class="deposit__line">
+            <span class="deposit__text">Pacoca</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__text">Auto-compound</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__text">$200,138.84</span>
+          </div>
+          <div class="deposit__line">
+            <span class="deposit__text">Pacoca</span>
+          </div>
+        </div>
+      </div>
+      <div class="more-info">
+        <button type="button" class="btn-link">More info</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+			        <div class="deposit">
+			          <div class="deposit__wrapper">
+			            <div class="deposit__main">
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">Auto PACOCA</span>
+			                    <div class="tokkens__info">
+			                      <span class="tokkens__nomination">APY: 644%</span>
+			                      <button class="btn-info" type="button">
+			                        <img class="tokkens__icon" src="assets/images/icons/info.svg" alt="icon-tokken-info" />
+			                      </button>
+			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+			              <button class="btn" type="button">Deposit</button>
+			            </div>
+
+			            <div class="deposit__info">
+			              <div class="deposit__info-wrapper">
+			                <div class="deposit__column">
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Farm platform</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Type</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">TVL</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Earn</span>
+			                  </div>
+			                </div>
+
+			                <div class="deposit__column">
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Pacoca</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Auto-compound</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">$200,138.84</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Pacoca</span>
+			                  </div>
+			                </div>
+			              </div>
+			              <div class="more-info">
+			                <button type="button" class="btn-link">More info</button>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+
+			        <div class="deposit">
+			          <div class="deposit__wrapper">
+			            <div class="deposit__main">
+			              <div class="tokkens">
+			                <div class="tokkens__wrapper">
+			                  <div class="tokkens__image">
+			                    <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+			                  </div>
+			                  <div class="tokkens__body">
+			                    <span class="tokkens__name">Auto PACOCA</span>
+			                    <div class="tokkens__info">
+			                      <span class="tokkens__nomination">APY: 644%</span>
+			                      <button class="btn-info" type="button">
+			                        <img class="tokkens__icon" src="assets/images/icons/info.svg" alt="icon-tokken-info" />
+			                      </button>
+			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+			              <button class="btn" type="button">Deposit</button>
+			            </div>
+
+			            <div class="deposit__info">
+			              <div class="deposit__info-wrapper">
+			                <div class="deposit__column">
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Farm platform</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Type</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">TVL</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__name">Earn</span>
+			                  </div>
+			                </div>
+
+			                <div class="deposit__column">
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Pacoca</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Auto-compound</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">$200,138.84</span>
+			                  </div>
+			                  <div class="deposit__line">
+			                    <span class="deposit__text">Pacoca</span>
+			                  </div>
+			                </div>
+			              </div>
+			              <div class="more-info">
+			                <button type="button" class="btn-link">More info</button>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+
+			      </div>
+
+			      <div class="tabs__content tab-three">
+			        <div class="exchange">
+  <div class="exchange__wrapper">
+    <div class="exchange__balance-wrapper">
+      <div class="exchange__balance">
+        <span class="exchange__balance-check">From</span>
+        <span class="exchange__balance-count">Balance: 1.22250295</span>
+      </div>
+      <div class="exchange__balance">
+        <span class="exchange__balance-number">0</span>
+        <button class="btn small" type="button">MAX</button>
+        <div class="tokkens">
+          <div class="tokkens__wrapper">
+            <div class="tokkens__image">
+              <img src="assets/images/icons/tokken.svg" alt="icon-tokken">
+            </div>
+            <div class="tokkens__body">
+              <span class="tokkens__name tokkens__name-exchange">BNB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="exchange__icon-wrapper">
+      <img class="exchange__icon" src="assets/images/icons/arrow-exchange.svg" alt="arrow-change">
+    </div>
+    <div class="exchange__balance-wrapper">
+      <div class="exchange__balance">
+        <span class="exchange__balance-check">To</span>
+        <span class="exchange__balance-count">Balance: 1.22250295</span>
+      </div>
+
+      <div class="exchange__balance">
+        <span class="exchange__balance-number">0</span>
+        <div class="tokkens">
+          <div class="tokkens__wrapper">
+            <div class="tokkens__image">
+              <img src="assets/images/icons/tokken.svg" alt="icon-tokken">
+            </div>
+            <div class="tokkens__body">
+              <span class="tokkens__name tokkens__name-exchange">BNB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn full-width big" type="button">Exchange</button>
+  </div>
+</div>
+			      </div>
+
+			      <div class="tabs__content tab-forth">
+			        <div class="chart">
+  <div class="chart__wrapper">
+    <div class="search-wrapper charts-wrap">
+      <p class="search-title">Exchange</p>
+      <form class="search-form charts-form" method="POST" autocomplete="off" enctype="multipart/form-data" role="search">
+        <div class="filters-charts">
+          <select class="filters-charts__select" name="charts" id="charts">
+            <option class="filters-charts__text" disabled selected>Select</option>
+            <option class="filters-charts__item" value="Apeswap">Apeswap</option>
+            <option class="filters-charts__item" value="Pancake v2">Pancake v2</option>
+            <option class="filters-charts__item" value="Pancake">Pancake</option>
+            <option class="filters-charts__item" value="Item 3">Item 3</option>
+            <option class="filters-charts__item" value="Item 4">Item 4</option>
+          </select>
+        </div>
+        <div class="search-charts">
+          <button type="submit" class="search-charts__button calculate__search-pos "></button>
+          <input class="calculate__search charts-search" type="search" name="q" aria-label="Search" placeholder="Search" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="chart-sheme">
+    <div class="chart-sheme__wrapper">
+      <span class="crypto-text-md">TradingView Chart</span>
+    </div>
+    <div class="chart-sheme__btn-wrapper">
+      <button type="button" class="chart-sheme__btn chart-sheme__btn--active"></button>
+      <button type="button" class="chart-sheme__btn"></button>
+      <button type="button" class="chart-sheme__btn"></button>
+      <button type="button" class="chart-sheme__btn"></button>
+    </div>
+  </div>
+
+  <div class="data-tokkens">
+    <div class="data-adress">
+      <div class="data-info">
+        <span class="data-info__title">Contract address:</span>
+        <span class="data-info__numbers">0x000000000000000000000000</span>
+      </div>
+      <div class="data-info">
+        <span class="data-info__title">Pair address:</span>
+        <span class="data-info__numbers">0x000000000000000000000000</span>
+      </div>
+    </div>
+    <div class="data-speciality">
+      <div class="data-info">
+        <span class="data-info__title">Total liquidity:</span>
+        <span class="data-info__numbers">10000000$</span>
+      </div>
+      <div class="data-info">
+        <span class="data-info__title">Market CAP:</span>
+        <span class="data-info__numbers">10000000$</span>
+      </div>
+      <div class="data-info">
+        <span class="data-info__title">Circualting Supply:</span>
+        <span class="data-info__numbers">10000000$</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-data">
+    <div class="table table--charts">
+      <div class="table__scroll">
+        <div class="table__wrapper">
+          <div class="table__row table__row--head thead-row">
+            <div class="table__col table__col--main">
+              <span class="crypto-text-sm charts-text">Tokens</span>
+            </div>
+            <div class="table__col">
+              <span class="crypto-text-sm charts-text">Price</span>
+            </div>
+            <div class="table__col">
+              <span class="crypto-text-sm charts-text">Price/Token</span>
+            </div>
+            <div class="table__col">
+              <span class="crypto-text-sm charts-text">Time</span>
+            </div>
+            <div class="table__col">
+              <span class="crypto-text-sm charts-text">Tx</span>
+            </div>
+          </div>
+          <div class="table__body">
+            <div class="table__row table__row--wrap row-main">
+              <div class="table__col table__col--main">
+              <span class="crypto-text-tt current">2,607<br/><span class="table__text">THOREUM</span></span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$42,00<br/><span class="table__text">0.0900 BNB</span></span>
+               </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$0,01611<br/><span class="table__text">Pc v2</span></span>
+              </div>
+              <div class="table__col">
+                <time class="crypto-text-tt current" datetime="23:18:08">23:18:08</time>
+              </div>
+              <div class="table__col table__col--w">
+                <span class="crypto-text-tt">0x48c3<br/><span class="table__text">Track</span></span>
+              </div>
+            </div>
+
+            <div class="table__row table__row--wrap row-main">
+              <div class="table__col table__col--main">
+              <span class="crypto-text-tt current">2,607<br/><span class="table__text">THOREUM</span></span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$42,00<br/><span class="table__text">0.0900 BNB</span></span>
+               </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$0,01611<br/><span class="table__text">Pc v2</span></span>
+              </div>
+              <div class="table__col">
+                <time class="crypto-text-tt current" datetime="23:18:08">23:18:08</time>
+              </div>
+              <div class="table__col table__col--w">
+                <span class="crypto-text-tt">0x48c3<br/><span class="table__text">Track</span></span>
+              </div>
+            </div>
+
+            <div class="table__row table__row--wrap row-main">
+              <div class="table__col table__col--main">
+              <span class="crypto-text-tt current">2,607<br/><span class="table__text">THOREUM</span></span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$42,00<br/><span class="table__text">0.0900 BNB</span></span>
+               </div>
+              <div class="table__col">
+                <span class="crypto-text-tt current">$0,01611<br/><span class="table__text">Pc v2</span></span>
+              </div>
+              <div class="table__col">
+                <time class="crypto-text-tt current" datetime="23:18:08">23:18:08</time>
+              </div>
+              <div class="table__col table__col--w">
+                <span class="crypto-text-tt">0x48c3<br/><span class="table__text">Track</span></span>
+              </div>
+            </div>
+            <div class="table__row table__row--wrap row-main">
+              <div class="table__col table__col--main">
+              <span class="crypto-text-tt expired">2,607<br/><span class="table__text">THOREUM</span></span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-tt expired">$42,00<br/><span class="table__text">0.0900 BNB</span></span>
+               </div>
+              <div class="table__col">
+                <span class="crypto-text-tt expired">$0,01611<br/><span class="table__text">Pc v2</span></span>
+              </div>
+              <div class="table__col">
+                <time class="crypto-text-tt expired" datetime="23:18:08">23:18:08</time>
+              </div>
+              <div class="table__col table__col--w">
+                <span class="crypto-text-tt">0x48c3<br/><span class="table__text">Track</span></span>
+              </div>
+            </div>
+
+            <div class="table__row table__row--wrap row-main">
+              <div class="table__col table__col--main">
+              <span class="crypto-text-tt expired">2,607<br/><span class="table__text">THOREUM</span></span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-tt expired">$42,00<br/><span class="table__text">0.0900 BNB</span></span>
+               </div>
+              <div class="table__col">
+                <span class="crypto-text-tt expired">$0,01611<br/><span class="table__text">Pc v2</span></span>
+              </div>
+              <div class="table__col">
+                <time class="crypto-text-tt expired" datetime="23:18:08">23:18:08</time>
+              </div>
+              <div class="table__col table__col--w">
+                <span class="crypto-text-tt">0x48c3<br/><span class="table__text">Track</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+			      </div>
+
+			      <div class="tabs__content tab-fifth">
+			        <div class="tabs-tools">
+  <ul class="tabs-tools__header">
+    <li data-tab="tabs-tools-one" class="tabs-tools__btn js-tabs-tools-btn">Features</li>
+    <li data-tab="tabs-tools-two" class="tabs-tools__btn js-tabs-tools-btn active">Revoke/Approve</li>
+    <li data-tab="tabs-tools-three" class="tabs-tools__btn js-tabs-tools-btn">Multi Sender</li>
+    <li data-tab="tabs-tools-forth" class="tabs-tools__btn js-tabs-tools-btn">NFT Mint</li>
+    <li data-tab="tabs-tools-fifth" class="tabs-tools__btn js-tabs-tools-btn">Snapshot</li>
+    <li data-tab="tabs-tools-six" class="tabs-tools__btn js-tabs-tools-btn">Alerts</li>
+    <li data-tab="tabs-tools-seven" class="tabs-tools__btn js-tabs-tools-btn">IL Calculator</li>
+  </ul>
+  <div class="tabs-tools__wrapper">
+    <div class="tabs-tools__content tabs-tools-one">
+      <span>Features</span>
+    </div>
+    <div class="tabs-tools__content tabs-tools-two active">
+      <div class="contact-adress">
+        <form class="adress-form" method="POST">
+          <div class="adress">
+            <label class="adress__text" for="contact-adress">Write the contract address here</label>
+            <input type="text" class="adress__input" id="contact-adress" name="adress" aria-label="input your adress" placeholder="-" value="" required/>
+          </div>
+
+          <div class="adress">
+            <label class="adress__text" for="spender-adress">Write the Spender address here</label>
+            <input type="text" class="adress__input" id="spender-adress" name="adress" aria-label="input your adress" placeholder="-" value="" required/>
+          </div>
+
+          <div class="limit-wrapper">
+            <div class="limit">
+              <input type="text" class="limit__input" id="limit" name="adress" aria-label="input your adress" placeholder="Write the Spend Limit here" value="" required/>
+            </div>
+
+            <button type="submit" class="btn">
+              Approve
+            </button>
+          </div>
+        </form>
+
+        <div class="table table--revoke">
+          <div class="table__scroll">
+            <div class="table__wrapper">
+              <div class="table__row table__row--head thead-row">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-sm charts-text">Approved Con.</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm charts-text">Spender</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm charts-text">Limit</span>
+                </div>
+              </div>
+              <div class="table__body">
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">0x00000000<br/>00000000...</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt">Unlimited</span>
+                  </div>
+                  <div class="table__col">
+                    <button type="button" class="btn">Revoke</button>
+                  </div>
+                </div>
+
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">0x00000000<br/>00000000...</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt">Unlimited</span>
+                  </div>
+                  <div class="table__col">
+                    <button type="button" class="btn">Revoke</button>
+                  </div>
+                </div>
+
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">0x00000000<br/>00000000...</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt">Unlimited</span>
+                  </div>
+                  <div class="table__col">
+                    <button type="button" class="btn">Revoke</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tabs-tools__content tabs-tools-three">
+      <form class="adress-form limit-form" method="POST">
+
+        <div class="limit-wrapper">
+          <div class="limit">
+            <input type="text" class="limit__input limit-token" name="token-adress" aria-label="input your adress" placeholder="Token address" value="" required>
+          </div>
+
+        <span class="toggle-token">
+          <input type="checkbox" id="toggle" />
+          <label for="toggle">Token/Native</label>
+        </span>
+
+        </div>
+
+        <p class="crypto-text-sm crypto-text-pos">Current fee for Token: 5 MCRN</p>
+        <div class="limit-buttons-wrappers">
+          <button type="button" class="btn small smaller-pos pos">
+            UI
+          </button>
+          <button type="button" class="btn small smaller-pos dark pos">
+            Text(Json)
+          </button>
+          <button type="button" class="btn small dark pos">
+            Csv
+          </button>
+        </div>
+
+        <span class="crypto-check">
+          <input type="checkbox" class="crypto-check__check" id="save-amount" name="save-amount" value=""/>
+          <label for="save-amount" class="crypto-text-sm crypto-check__text">Save Amount</label>
+        </span>
+
+        <div class="limits-wrap amounts">
+          <div class="limit adress-limit">
+            <input type="text" class="limit__input limit-token" name="adress" aria-label="input your adress" placeholder="Address" value="" required>
+          </div>
+          <div class="limit amount-limit">
+            <input type="text" class="limit__input limit-token" name="amount" aria-label="input your adress" placeholder="Amount" value="" required>
+          </div>
+          <button type="button" class="btn middle">
+            +
+          </button>
+        </div>
+
+        <button type="submit" class="btn">
+          Send
+        </button>
+      </form>
+    </div>
+    <div class="tabs-tools__content tabs-tools-forth">
+      <div class="property">
+        <div class="progress progress-pos">
+          <div class="progress__wrapper progress__wrapper-property">
+            <div class="progress__bar">
+              <div class="progress__value" style="width: 10%;"></div>
+            </div>
+            <div class="progress__footer">
+              <span class="progress__text progress__text--active">Select file</span>
+              <span class="progress__text">Set properties</span>
+              <span class="progress__text">Mint</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="file-form" method="POST" enctype="multipart/form-data">
+          <div class="file-wrap">
+            <p class="crypto-text-lg pos-text-center">Mint an NFT!</p>
+            <p class="crypto-text-md pos-text-center">Drag and drop, or click to browse.</p>
+            <p class="crypto-text-sm pos-text-center">JPG/PNG images, GIFs, WAV/MP3 or WebM/MP4/MOV videos accepted. 50MB limit.</p>
+            <div class="btn-wrap">
+              <button type="button" class="btn">Browse file</button>
+            </div>
+          </div>
+          <div class="file-wrapper">
+            <input class="file-input" type="file" id="file" multiple />
+            <label class="crypto-text-sm" for="file"></label>
+          </div>
+        </form>
+
+        <div>
+          <div class="progress progress-pos">
+            <div class="progress__wrapper progress__wrapper-property">
+              <div class="progress__bar">
+                <div class="progress__value" style="width: 50%;">
+                </div>
+              </div>
+              <div class="progress__footer">
+                <span class="progress__text">Select file</span>
+                <span class="progress__text progress__text--active">Set properties</span>
+                <span class="progress__text">Mint</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-properties">
+            <div class="text-wrapper">
+              <p class="crypto-text-lg text-property-pos">Set the properties</p>
+              <p class="crypto-text-md text-property-pos">
+                Confirm the details of your work before moving on to sign your NFT. Once you mint your NFT, you won’t be able to make any changes.
+              </p>
+            </div>
+            <div class="image-body image-body-preview">
+              <div class="image-wrapper">
+                <img class="image-preview" src="assets/images/preview.png" alt="image-preview" />
+              </div>
+              <div class="image-text">
+                <span class="crypto-text-sm">
+                  Preview
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form class="property-form" method="POST">
+            <div class="collection-type">
+              <p class="crypto-text-sm text-property-pos">Collection type</p>
+              <div class="radio-wrapper">
+                <input class="radio-btn radio-btn-input" type="radio" id="typeSingle"
+                name="type" value="single" checked>
+               <label class="crypto-text-sm radio-btn-label" for="typeSingle">Single</label>
+
+               <input class="radio-btn radio-btn-input" type="radio" id="typeMultiples"
+                name="type" value="Multiples">
+               <label class="crypto-text-sm radio-btn-label" for="typeMultiples">Multiples</label>
+              </div>
+            </div>
+
+            <div class="adress">
+              <label class="adress__text" for="contact-adress">Number of copies</label>
+              <input type="text" class="adress__input" name="Number of copies" aria-label="Number of copies" placeholder="-" value="" required>
+            </div>
+            <p class="crypto-text-sm text-property-pos">Properties</p>
+            <div class="adress">
+              <label class="adress__text" for="spender-adress">Name</label>
+              <input type="text" class="adress__input" name="adress" aria-label="input your adress" placeholder="-" value="" required>
+            </div>
+
+            <div class="adress">
+              <label class="adress__text" for="spender-adress">Description</label>
+              <input type="text" class="adress__input" name="adress" aria-label="input your adress" placeholder="-" value="" required>
+            </div>
+
+            <div class="limit-wrapper">
+              <p class="crypto-text-sm text-property-pos">Custom properties</p>
+              <div class="wrap-custom">
+                <div class="limit limits-input">
+                  <input type="text" class="adress__input limit-input" name="adress" aria-label="input your adress" placeholder="E.G Date" value="" required>
+                </div>
+                <div class="limit limits-input">
+                  <input type="text" class="adress__input limit-input" name="adress" aria-label="input your adress" placeholder="E.G 27/3" value="" required>
+                </div>
+              </div>
+              <span class="crypto-check text-property-pos">
+                <input type="checkbox" id="agree" class="crypto-check__check" name="agree" value=""/>
+                <label for="agree" class="crypto-text-sm crypto-check__text">By minting this NFT you agree that these works belong to you and only you. Please respect the creativity of other artists in the space. We would love you for it.</label>
+              </span>
+              <button type="submit" class="btn full-width big">
+                Mint NFT
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="tabs-tools__content tabs-tools-fifth">
+      <div class="wrap-copies">
+        <h2 class="crypto-text-md pos-text-center">Don't have $TAPE yet? We have a new IDO:</h2>
+        <div class="copies">
+          <div class="copies__wrapper">
+            <p class="crypto-text-lg pos-text-center copies__heading">CopyCat Finance:</p>
+            <p class="crypto-text-sm pos-text-center copies__data">
+              <time datetime="2021-08-26">27 August - 07 September</time>
+            </p>
+            <p class="crypto-text-md pos-text-center copies__text">You need to  have 640000 $TAPE now to become this tier until IDO:</p>
+            <div class="filters-charts copies__select-wrap">
+              <select class="filters-charts__select copies__select width" name="copies" id="copies">
+                <option class="filters-charts__text" disabled selected>Number of copies</option>
+                <option class="filters-charts__item" value="1">1</option>
+                <option class="filters-charts__item" value="2">2</option>
+                <option class="filters-charts__item" value="3">3</option>
+                <option class="filters-charts__item" value="4">4</option>
+                <option class="filters-charts__item" value="5">5</option>
+                <option class="filters-charts__item" value="10">10</option>
+                <option class="filters-charts__item" value="15">15</option>
+                <option class="filters-charts__item" value="20">20</option>
+                <option class="filters-charts__item" value="30">30</option>
+                <option class="filters-charts__item" value="50">50</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="copies-content">
+          <p class="crypto-text-md pos-text-center">
+            Equivalent LP values for $TAPE:
+          </p>
+          <p class="crypto-text-md pos-text-center">
+            1 $TAPE-$BNB LP = 160 $TAPE
+          </p>
+          <p class="crypto-text-md pos-text-center">
+            1 $HEPA-$TAPE LP = 3,33 $TAPE
+          </p>
+          <p class="crypto-text-md pos-text-center">
+            1 $TAPE-$MATIC LP = 16 $TAPE
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="tabs-tools__content tabs-tools-six">
+      <form class="alerts-form" method="POST">
+        <div class="limit-wrapper">
+          <div class="wrap-custom alerts-wrapper">
+            <div class="limit limits-input">
+              <input type="text" class="adress__input alerts-input" name="adress" aria-label="input your adress" placeholder="Write token contract address here" value="" required>
+            </div>
+            <div class="limit limits-input">
+              <input type="text" class="adress__input alerts-input" name="adress" aria-label="input your adress" placeholder="Trigger price" value="" required>
+            </div>
+          </div>
+          <div class="btn-wrap">
+            <button type="submit" class="btn">
+              Add alerts
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <div class="revoke">
+        <div class="table table--alerts">
+          <div class="table__scroll">
+            <div class="table__wrapper">
+              <div class="table__row table__row--head thead-row">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-sm charts-text">Tokken name</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm charts-text">Trigger Price ($)</span>
+                </div>
+              </div>
+              <div class="table__body tbody-main">
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">10$</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt expired">Delete</span>
+                  </div>
+                </div>
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">10$</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt expired">Delete</span>
+                  </div>
+                </div>
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Banana</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">10$</span>
+                   </div>
+                  <div class="table__col table__col--w">
+                    <span class="crypto-text-tt expired">Delete</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="tabs-tools__content tabs-tools-seven">
+      <section class="calculate">
+        <form class="property-form" method="POST">
+          <div class="collection-type calculate__wrapper">
+            <p class="crypto-text-md calculate__text">Asset 1</p>
+            <div class="calculate__section">
+              <div class="calculate__collectuion-type">
+                <p class="crypto-text-sm text-property-pos">Search by</p>
+                <div class="wrap-radio">
+                  <input class="radio-btn radio-btn-input" type="radio" id="TokenName"
+                  name="type" value="single" checked>
+                 <label class="crypto-text-sm radio-btn-label radio-bottpm" for="TokenName">Token name</label>
+
+                 <input class="radio-btn radio-btn-input" type="radio" id="TokenAddress"
+                  name="type" value="Multiples">
+                 <label class="crypto-text-sm radio-btn-label" for="TokenAddress">Token address</label>
+                </div>
+
+              </div>
+              <div class="calculate__filters">
+                <div class="filters-charts">
+                  <select class="filters-charts__select" name="charts">
+                    <option class="filters-charts__text" disabled selected>Select</option>
+                    <option class="filters-charts__item" value="Apeswap">Apeswap</option>
+                    <option class="filters-charts__item" value="Pancake v2">Pancake v2</option>
+                    <option class="filters-charts__item" value="Pancake">Pancake</option>
+                    <option class="filters-charts__item" value="Item 3">Item 3</option>
+                    <option class="filters-charts__item" value="Item 4">Item 4</option>
+                  </select>
+                </div>
+                <div class="search-charts">
+                  <button type="submit" class="search-charts__button calculate__search-pos "></button>
+                  <input class="calculate__search" type="search" name="q" aria-label="Search" placeholder="Search" />
+                </div>
+              </div>
+
+              <span class="crypto-text-sm">Asset Pool Weight</span>
+              <div class="calculate__bar-wrap">
+                <div class="progress calculate__bar">
+                  <div class="progress__wrapper">
+                    <div class="progress__bar">
+                      <div class="progress__value" style="width: 25%;">
+                        <span class="progress__value-count">25%</span>
+                      </div>
+                    </div>
+                    <div class="progress__footer calucate-pos">
+                      <span class="progress__text">0%</span>
+                      <span class="progress__text">100%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="text" class="calculate__input-bar crypto-text-md" value="25%" name="Weight">
+              </div>
+
+              <span class="crypto-text-sm">Asset Price Change</span>
+              <div class="calculate__bar-wrap">
+                <div class="progress calculate__bar">
+                  <div class="progress__wrapper">
+                    <div class="progress__bar">
+                      <div class="progress__value" style="width: 25%;">
+                        <span class="progress__value-count">100%</span>
+                      </div>
+                    </div>
+                    <div class="progress__footer calucate-pos">
+                      <span class="progress__text">-99%</span>
+                      <span class="progress__text">500%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="text" class="calculate__input-bar crypto-text-md" value="100%" name="change">
+              </div>
+
+              <button type="submit" class="btn dark small">
+                + Detailed configuration
+              </button>
+            </div>
+
+            <p class="crypto-text-md calculate__text">Asset 2</p>
+            <div class="calculate__section">
+              <div class="calculate__collectuion-type">
+                <p class="crypto-text-sm text-property-pos">Search by</p>
+                <div class="wrap-radio">
+                  <input class="radio-btn radio-btn-input" type="radio" id="TokenNames"
+                  name="type" value="single" checked>
+                  <label class="crypto-text-sm radio-btn-label" for="TokenNames">Token name</label>
+                  <input class="radio-btn radio-btn-input" type="radio" id="TokenAddresses"
+                  name="type" value="Multiples">
+                  <label class="crypto-text-sm radio-btn-label" for="TokenAddresses">Token address</label>
+                </div>
+              </div>
+              <div class="calculate__filters">
+                <div class="filters-charts">
+                  <select class="filters-charts__select" name="charts">
+                    <option class="filters-charts__text" disabled selected>Select</option>
+                    <option class="filters-charts__item" value="Apeswap">Apeswap</option>
+                    <option class="filters-charts__item" value="Pancake v2">Pancake v2</option>
+                    <option class="filters-charts__item" value="Pancake">Pancake</option>
+                    <option class="filters-charts__item" value="Item 3">Item 3</option>
+                    <option class="filters-charts__item" value="Item 4">Item 4</option>
+                  </select>
+                </div>
+                <div class="search-charts">
+                  <button type="submit" class="search-charts__button calculate__search-pos "></button>
+                  <input class="calculate__search" type="search" name="q" aria-label="Search" placeholder="Search" />
+                </div>
+              </div>
+
+              <span class="crypto-text-sm">Asset Pool Weight</span>
+              <div class="calculate__bar-wrap">
+                <div class="progress calculate__bar">
+                  <div class="progress__wrapper">
+                    <div class="progress__bar">
+                      <div class="progress__value" style="width: 25%;">
+                        <span class="progress__value-count">25%</span>
+                      </div>
+                    </div>
+                    <div class="progress__footer calucate-pos">
+                      <span class="progress__text">0%</span>
+                      <span class="progress__text">100%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="text" class="calculate__input-bar crypto-text-md" value="25%" name="Weight">
+              </div>
+
+              <span class="crypto-text-sm">Asset Price Change</span>
+              <div class="calculate__bar-wrap">
+                <div class="progress calculate__bar">
+                  <div class="progress__wrapper">
+                    <div class="progress__bar">
+                      <div class="progress__value" style="width: 25%;">
+                        <span class="progress__value-count">100%</span>
+                      </div>
+                    </div>
+                    <div class="progress__footer calucate-pos">
+                      <span class="progress__text">-99%</span>
+                      <span class="progress__text">500%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="text" class="calculate__input-bar crypto-text-md" value="100%" name="change">
+              </div>
+
+              <div class="calculate__change-wrap">
+                <span class="crypto-text-sm">Asset Price Change</span>
+                <button type="button" class="btn dark small">
+                  -
+                </button>
+              </div>
+              <div class="calculate__bar-wrap">
+                <div class="progress progress-pos calculate__main-bar">
+                  <div class="progress__wrapper progress__wrapper-property">
+                    <div class="progress__footer calculate__footer">
+                      <span class="progress__text">Sharp</span>
+                      <span class="progress__text progress__text--active">normal</span>
+                      <span class="progress__text">mild</span>
+                    </div>
+                    <div class="progress__bar">
+                      <div class="progress__value" style="width: 50%;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn full-width big">
+            Calculate
+          </button>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+			      </div>
+
+			      <div class="tabs__content tab-six">
+			        <div class="tabs-ido">
+  <ul class="tabs-ido__header">
+    <li data-tab="tabs-ido-one" class="tabs-ido__btn js-tabs-ido-btn active">Upcomming projects</li>
+    <li data-tab="tabs-ido-two" class="tabs-ido__btn js-tabs-ido-btn">Previuos Project</li>
+  </ul>
+  <div class="tabs-ido__wrapper">
+    <div class="tabs-ido__content tabs-ido-one active">
+      <div class="progect-section">
+        <div class="projects-wrapper">
+          <div class="projects-info-wrapper">
+            <div class="tokkens project-tokken">
+              <div class="tokkens__wrapper">
+                <div class="tokkens__image">
+                  <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+                </div>
+                <div class="tokkens__body">
+                  <span class="tokkens__name">PancakeSwap</span>
+                  <span class="tokkens__text"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-project">
+              <div class="table table--projects">
+                <div class="table__scroll">
+                  <div class="table__wrapper">
+                    <div class="table__row table__row--head">
+                      <div class="table__col table__col--main">
+                        <span class="crypto-text-sm">Chain:</span>
+                      </div>
+                      <div class="table__col">
+                        <span class="crypto-text-sm">Deposit:</span>
+                      </div>
+                      <div class="table__col">
+                        <span class="crypto-text-sm">Method::</span>
+                      </div>
+                    </div>
+
+                    <div class="table__body tbody-main">
+                      <div class="table__row table__row--wrap">
+                        <div class="table__col table__col--main">
+                          <span class="crypto-text-mdr">BSC</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-mdr">BUSD</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-mdr">Tape-Holder-Wl</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table table--projects">
+                <div class="table__scroll">
+                  <div class="table__wrapper">
+                    <div class="table__row table__row--head">
+                      <div class="table__col table__col--main">
+                        <span class="crypto-text-sm">IDO date:</span>
+                      </div>
+                      <div class="table__col">
+                        <span class="crypto-text-sm">Total raise:</span>
+                      </div>
+                      <div class="table__col">
+                        <span class="crypto-text-sm">Raised am:</span>
+                      </div>
+                    </div>
+
+                    <div class="table__body project-body">
+                      <div class="table__row table__row--wrap">
+                        <div class="table__col table__col--main">
+                          <span class="crypto-text-mdr">31/08/2021</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-mdr">100.000 $</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-mdr">0 $</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <p class="crypto-text-sm project-info">
+            <span class="project-text-color">Desrciption: </span>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="progect-section">
+        <div class="details-wrapper">
+          <div class="details-heading">
+            <div class="details-image-body">
+              <div class="details-image-wrapper">
+                <a href="#" class="details-link">
+                  <img class="details-image" src="assets/images/icons/arrow-back.svg" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="tokkens details-token">
+              <div class="tokkens__wrapper">
+                <div class="tokkens__image">
+                  <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+                </div>
+                <div class="tokkens__body">
+                  <span class="tokkens__name">PancakeSwap</span>
+                  <span class="tokkens__text"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress__wrapper">
+              <div class="progress__bar details-bar">
+                <div class="progress__value details-value" style="width: 99%;">
+                  <div class="progress__value-count details-value-counts">
+                    <div class="details-value-count">
+                      <span class="crypto-text-sm">Start date:</span>
+                      <time class="progress__text details-text-lg" datetime="31/08/2021">31/08/2021 14:00 UTC</time>
+                    </div>
+                    <div class="details-value-count">
+                      <span class="crypto-text-sm">End date:</span>
+                      <time class="progress__text details-text-lg" datetime="31/08/2021">31/08/2021 14:00 UTC</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="progress__footer details-footer">
+                <span class="progress__text crypto-text-sm details-pos">Total Amount staked:</span>
+                <span class="progress__text details-text-lg">93950 USDC (99%)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-content">
+            <div class="details-column">
+              <div class="section-wrap section-first">
+                <p class="crypto-text-md section-first__heading">Wanaka Farm details</p>
+                <p class="crypto-text-sm crypto-text-ression section-first__margin">Wallet not whitelisted</p>
+                <p class="section-first__wrapper section-first__marg">
+                  <a class="section-first__link" href="#">
+                    <img class="section-first__icon" src="assets/images/icons/link-web.svg" alt="" />
+                    <span class="section-first__text">Website</span>
+                  </a>
+                </p>
+                <p class="crypto-text-sm section-first__marg">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <div class="dollar-wrap">
+                  <img class="section-first__marg" src="assets/images/icons/dollars.svg" alt="" />
+                  <p class="crypto-text-md">
+                    Refoundable IDO
+                  </p>
+                </div>
+              </div>
+              <div class="section-wrap section-second">
+                <p class="crypto-text-md section-second__margin">Allocations</p>
+
+
+                <div class="table table--allocations">
+                  <div class="table__scroll">
+                    <div class="table__wrapper">
+                      <div class="table__row table__row--head">
+                        <div class="table__col table__col--main">
+                          <span class="crypto-text-sm">Baboon:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">Ape:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">Chimp:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">Gorilla:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">King Kong:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">Daddy Ape:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">Grandpa Ape:</span>
+                        </div>
+                        <div class="table__col">
+                          <span class="crypto-text-sm">WL Ape:</span>
+                        </div>
+                      </div>
+
+                      <div class="table__body tbody-main">
+                        <div class="table__row table__row--wrap row-main">
+                          <div class="table__col table__col--main">
+                            <span class="crypto-text-mdr">25$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">50$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">100$</span>
+                          </div>
+
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">25$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">50$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">100$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">25$</span>
+                          </div>
+                          <div class="table__col">
+                            <span class="crypto-text-mdr">50$</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="details-column">
+              <div class="section-wrap section-third">
+                <p class="crypto-text-sms section-third__margin">You have 0 USDC Deposited from 50 available for your TIER</p>
+
+                <div class="exchange__balance-wrapper details-border section-third__margin">
+                  <div class="exchange__balance">
+                    <span class="exchange__balance-check">Input</span>
+                    <span class="exchange__balance-count">Your wallet Balance: 0</span>
+                  </div>
+                  <div class="exchange__balance">
+                    <span class="exchange__balance-number">-</span>
+                    <div class="tokkens">
+                      <div class="wrapper-details">
+                        <button class="btn small" type="button">MAX</button>
+                        <div class="tokkens__image">
+                          <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+                        </div>
+                        <div class="tokkens__body">
+                          <span class="tokkens__name details-name">USDC</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrappers-button">
+                  <button class="btn dark medium" type="button">Approve</button>
+                  <button class="btn dark medium" type="button">Deposit</button>
+                </div>
+              </div>
+              <div class="section-wrap section-fourth">
+                <p class="crypto-text-sms section-fourth__margin">Harvest reward or refund will be available in approx</p>
+                <div class="exchange__balance-wrapper date-wrapper section-fourth__margin">
+                  <div class="wrappers-date">
+                    <span class="crypto-text-sm">Days</span>
+                    <span class="crypto-text-md">00</span>
+                  </div>
+                  <div class="wrappers-date">
+                    <span class="crypto-text-sm">Hours</span>
+                    <span class="crypto-text-md">00</span>
+                  </div>
+                  <div class="wrappers-date">
+                    <span class="crypto-text-sm">Min</span>
+                    <span class="crypto-text-md">00</span>
+                  </div>
+                  <div class="wrappers-date">
+                    <span class="crypto-text-sm">Sec</span>
+                    <span class="crypto-text-md">00</span>
+                  </div>
+                </div>
+
+                <div class="section-fourth__margin">
+                  <span class="crypto-text-sm">Refund available until:</span><br />
+                  <time class="crypto-text-sms" datetime="30/08/2021"> 30/08/2021 17:00 UTC</time>
+                </div>
+
+                <div class="wrappers-button">
+                  <button class="btn dark medium" type="button">Refund</button>
+                  <button class="btn dark medium" type="button">Harvest</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tabs-ido__content tabs-ido-two">
+      
+    </div>
+  </div>
+</div>
+
+			      </div>
+
+			      <div class="tabs__content tab-seven">
+			        <div class="tabs-info">
+  <ul class="tabs-info__header">
+    <li data-tab="tabs-info-one" class="tabs-info__btn js-tabs-info-btn active">Defi’s</li>
+    <li data-tab="tabs-info-two" class="tabs-info__btn js-tabs-info-btn">Launchpads</li>
+    <li data-tab="tabs-info-three" class="tabs-info__btn js-tabs-info-btn">Pools</li>
+    <li data-tab="tabs-info-four" class="tabs-info__btn js-tabs-info-btn">NFT’s</li>
+    <li data-tab="tabs-info-five" class="tabs-info__btn js-tabs-info-btn">Earn</li>
+  </ul>
+  <div class="tabs-info__wrapper">
+    <div class="tabs-info__content tabs-info-one active">
+      <section class="sheme">
+
+      	<div class="chart-sheme">
+      		<div class="chart-sheme__wrapper sheme-wrapper">
+      			<p class="chart-sheme__text">
+      				Chart
+      			</p>
+      		</div>
+      	</div>
+
+      	<div class="table table--defi">
+      		<div class="table__scroll">
+      			<div class="table__wrapper">
+      				<div class="table__row table__row--head thead-row">
+      					<div class="table__col table__col--main">
+      						<span class="crypto-text-sm tb-text">Defi’s</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">Chain</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">TVL</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">MCAP</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">MCAP/TVL</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">P/E</span>
+      					</div>
+      					<div class="table__col">
+      						<span class="crypto-text-sm tb-text">P/S</span>
+      					</div>
+      				</div>
+      				<div class="table__body">
+      					<div class="table__row table__row--wrap row-main">
+      						<div class="table__col table__col--main">
+      							<div class="tokkens">
+      								<div class="tokkens__wrapper">
+      									<div class="tokkens__image">
+      										<img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+      									</div>
+      									<div class="tokkens__body">
+      										<span class="tokkens__name current">PancakeSwap</span>
+      										<span class="tokkens__text"></span>
+      									</div>
+      								</div>
+      							</div>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">BSC</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">5B$</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      					</div>
+      					<div class="table__row table__row--wrap row-main">
+      						<div class="table__col table__col--main">
+      							<div class="tokkens">
+      								<div class="tokkens__wrapper">
+      									<div class="tokkens__image">
+      										<img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+      									</div>
+      									<div class="tokkens__body">
+      										<span class="tokkens__name current">ApeSwap</span>
+      										<span class="tokkens__text"></span>
+      									</div>
+      								</div>
+      							</div>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">BSC</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">5B$</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      					</div>
+      					<div class="table__row table__row--wrap row-main">
+      						<div class="table__col table__col--main">
+      							<div class="tokkens">
+      								<div class="tokkens__wrapper">
+      									<div class="tokkens__image">
+      										<img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+      									</div>
+      									<div class="tokkens__body">
+      										<span class="tokkens__name current">MacaronSwap</span>
+      										<span class="tokkens__text"></span>
+      									</div>
+      								</div>
+      							</div>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">BSC</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">5B$</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-tt">0.4</span>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+
+      	<div class="defi-info">
+      		<div class="details-heading defi-heading">
+      			<div class="details-image-body">
+      				<div class="details-image-wrapper">
+      					<a href="#" class="details-link">
+      						<img class="details-image" src="assets/images/icons/arrow-back.svg" alt="">
+      					</a>
+      				</div>
+      			</div>
+
+      			<div class="tokkens details-token">
+      				<div class="tokkens__wrapper">
+      					<div class="tokkens__image">
+      						<img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+      					</div>
+      					<div class="tokkens__body">
+      						<span class="tokkens__name">PancakeSwap</span>
+      						<span class="tokkens__text"></span>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+
+      		<div class="chart-sheme">
+      			<div class="chart-sheme__wrapper sheme-wrapper">
+      				<p class="chart-sheme__text">
+      					Chart
+      				</p>
+      			</div>
+      		</div>
+      		<div class="defi-info-sections">
+      			<div class="column-section">
+      				<div class="section-wrap section-first">
+      					<p class="crypto-text-md section-first__margin">Key Stats</p>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">Total value locked</p>
+      						<p class="crypto-text-sm section-first__margin">24H</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-mdr section-first__margin">in USD</p>
+      						<p class="crypto-text-mdr section-first__margin">5689M</p>
+      						<p class="crypto-text-mdr crypto-text-ression section-first__margin">-1,0%</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-mdr section-first__margin">in ETH</p>
+      						<p class="crypto-text-mdr section-first__margin">5689M</p>
+      						<p class="crypto-text-mdr crypto-text-ression section-first__margin">-1,0%</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-mdr section-first__margin">in BTC</p>
+      						<p class="crypto-text-mdr section-first__margin">5689M</p>
+      						<p class="crypto-text-mdr crypto-text-ression section-first__margin">-1,0%</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">ETH locked:</p>
+      						<p class="crypto-text-mdr section-first__margin">83.2K ETH</p>
+      						<p class="crypto-text-mdr crypto-text-ression section-first__margin">-126 ETH</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">% Supply Locked:</p>
+      						<p class="crypto-text-mdr section-first__margin">0.07%</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">Blockchain::</p>
+      						<p class="crypto-text-mdr section-first__margin">Ethereum</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">Most locked:</p>
+      						<p class="crypto-text-mdr section-first__margin">SWETH</p>
+      					</div>
+      					<div class="row-section">
+      						<p class="crypto-text-sm section-first__margin">Protocol token:</p>
+      						<p class="crypto-text-mdr section-first__margin">-</p>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="column-section">
+      				<div class="section-wrap section-first section-first__wrap">
+      					<span class="crypto-text-mdr section-first__margin">Ecosystem Links</span>
+      					<a href="#" class="crypto-text-mdr current section-first__margin">Discord</a>
+      					<a href="#" class="crypto-text-mdr current section-first__margin">Twitter</a>
+      					<a href="#" class="crypto-text-mdr current section-first__margin">Telegram</a>
+      					<a href="#" class="crypto-text-mdr current section-first__margin">Blog</a>
+      				</div>
+      				<div class="section-wrap section-first">
+      					<p class="crypto-text-md section-first__margin">Audits</p>
+      					<time class="crypto-text-mdr current section-first__margin" datetime="28.01.21">Trail of Bits -
+      						January, 28 2021</time>
+      				</div>
+      			</div>
+      		</div>
+
+      		<div class="column-section">
+      			<div class="section-wrap section-first">
+      				<p class="crypto-text-mdr section-first__heading">Waht is C.R.E.A.M Finance?</p>
+      				<p class="crypto-text-sm section-first__margin">
+      					Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+      					duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+      					deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+      					Exercitation veniam consequat sunt nostrud amet.
+      				</p>
+
+      				<p class="crypto-text-mdr section-first__heading">How to use C.R.E.A.M Finance?</p>
+      				<p class="crypto-text-sm section-first__margin">
+      					Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+      					duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+      					deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+      					Exercitation veniam consequat sunt nostrud amet.
+      				</p>
+      			</div>
+      		</div>
+      	</div>
+
+      	<div>
+      		<div class="details-heading defi-heading">
+      			<div class="details-image-body kickpad-icon">
+      				<div class="details-image-wrapper">
+      					<a href="#" class="details-link">
+      						<img class="details-image" src="assets/images/icons/arrow-back.svg" alt="">
+      					</a>
+      				</div>
+      			</div>
+      			<span class="tokkens__name current">Kickpad</span>
+      		</div>
+
+      		<div class="table table--kickpad">
+      			<div class="table__scroll">
+      				<div class="table__wrapper">
+      					<div class="table__row table__row--head thead-row">
+      						<div class="table__col table__col--main">
+      							<span class="crypto-text-sm tb-text">Active IDO’s</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Chain</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Method</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Total Raised</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">IDO date</span>
+      						</div>
+      					</div>
+      					<div class="table__body tbody-main">
+      						<div class="table__row table__row--wrap row-main">
+      							<div class="table__col table__col--main">
+      								<span class="crypto-text-tt">DPET</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">BSC</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">Tier + FCFS</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">100k $</span>
+      							</div>
+      							<div class="table__col">
+      								<time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+
+      		<div class="table table--kickpad">
+      			<div class="table__scroll">
+      				<div class="table__wrapper">
+      					<div class="table__row table__row--head thead-row">
+      						<div class="table__col table__col--main">
+      							<span class="crypto-text-sm tb-text">Finished IDO’s</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Most ROI</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Current ROI</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">Total Raised</span>
+      						</div>
+      						<div class="table__col">
+      							<span class="crypto-text-sm tb-text">IDO date</span>
+      						</div>
+      					</div>
+      					<div class="table__body tbody-main">
+      						<div class="table__row table__row--wrap row-main">
+      							<div class="table__col table__col--main">
+      								<span class="crypto-text-tt">The Mist</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">20x</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">5x</span>
+      							</div>
+      							<div class="table__col">
+      								<span class="crypto-text-tt">100k $</span>
+      							</div>
+      							<div class="table__col">
+      								<time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+
+      </section>
+    </div>
+    <div class="tabs-info__content tabs-info-two">
+      <div class="revoke launch">
+        <div class="table table--kickpad">
+          <div class="table__scroll">
+            <div class="table__wrapper">
+              <div class="table__row table__row--head thead-row">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-sm tb-text">Finished IDO’s</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">Most ROI</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">Current ROI</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">Total Raised</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">IDO date</span>
+                </div>
+              </div>
+              <div class="table__body tbody-main">
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                    <span class="crypto-text-tt">The Mist</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">20x</span>
+                   </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">100k $</span>
+                  </div>
+                  <div class="table__col">
+                    <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                  </div>
+                </div>
+
+
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                    <span class="crypto-text-tt">The Mist</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">20x</span>
+                   </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">100k $</span>
+                  </div>
+                  <div class="table__col">
+                    <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                  </div>
+                </div>
+
+
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                    <span class="crypto-text-tt">The Mist</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">20x</span>
+                   </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">100k $</span>
+                  </div>
+                  <div class="table__col">
+                    <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tabs-info__content tabs-info-three">
+      <div class="tab-pools">
+  <ul class="tab-pools__header">
+    <li data-tab="tab-pools-one" class="tab-pools__btn js-tab-pools-btn">Features</li>
+    <li data-tab="tab-pools-two" class="tab-pools__btn js-tab-pools-btn active">ApeSwap</li>
+    <li data-tab="tab-pools-three" class="tab-pools__btn js-tab-pools-btn">PancakeSwap</li>
+    <li data-tab="tab-pools-forth" class="tab-pools__btn js-tab-pools-btn">MacaronSwap</li>
+    <li data-tab="tab-pools-fifth" class="tab-pools__btn js-tab-pools-btn">Biswap</li>
+  </ul>
+
+  <div class="tab-pools__content tab-pools-one">
+    
+  </div>
+
+  <div class="tab-pools__content tab-pools-two active">
+    <div class="apeswap">
+      <div class="filters-charts copies__select-wrap">
+        <select class="filters-charts__select copies__select width apeswap-select" name="copies">
+          <option class="filters-charts__text" disabled selected>TAPE-BNB APE-LP</option>
+          <option class="filters-charts__item" value="1">1</option>
+          <option class="filters-charts__item" value="2">2</option>
+          <option class="filters-charts__item" value="3">3</option>
+          <option class="filters-charts__item" value="4">4</option>
+          <option class="filters-charts__item" value="5">5</option>
+          <option class="filters-charts__item" value="10">10</option>
+          <option class="filters-charts__item" value="15">15</option>
+          <option class="filters-charts__item" value="20">20</option>
+          <option class="filters-charts__item" value="30">30</option>
+          <option class="filters-charts__item" value="50">50</option>
+        </select>
+      </div>
+
+      <div class="chart-sheme">
+        <div class="chart-sheme__wrapper">
+          <span class="crypto-text-md">Chart</span>
+        </div>
+      </div>
+
+      <div class="table table--apeswap">
+        <div class="table__scroll">
+          <div class="table__wrapper">
+            <div class="table__row table__row--head thead-row">
+              <div class="table__col table__col--main">
+                <div class="tokkens">
+                  <div class="tokkens__wrapper">
+                    <div class="tokkens__body">
+                      <span class="crypto-text-sm tb-text">Reference Date</span>
+                    </div>
+                    <div class="tokkens__image apeswap-info">
+                      <button type="button" class="tokkens__image"><img src="assets/images/icons/info.svg" alt="icon-info"/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">APR</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">Type</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">Volatility</span>
+              </div>
+            </div>
+            <div class="table__body tbody-main">
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Last 7 days</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt current">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt expired">5x</span>
+                </div>
+              </div>
+
+
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Last 30 days</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt current">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt expired">5x</span>
+                </div>
+              </div>
+
+
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">Last 90 days</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt current">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt expired">5x</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tab-pools__content tab-pools-three">
+    
+  </div>
+
+  <div class="tab-pools__content tab-pools-forth">
+    
+  </div>
+
+  <div class="tab-pools__content tab-pools-fifth">
+    
+  </div>
+</div>
+    </div>
+    <div class="tabs-info__content tabs-info-four">
+      <div class="table table--kickpad">
+        <div class="table__scroll">
+          <div class="table__wrapper">
+            <div class="table__row table__row--head thead-row">
+              <div class="table__col table__col--main">
+                <span class="crypto-text-sm tb-text">Finished IDO’s</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">Most ROI</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">Current ROI</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">Total Raised</span>
+              </div>
+              <div class="table__col">
+                <span class="crypto-text-sm tb-text">IDO date</span>
+              </div>
+            </div>
+            <div class="table__body tbody-main">
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">The Mist</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">100k $</span>
+                </div>
+                <div class="table__col">
+                  <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                </div>
+              </div>
+
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">The Mist</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">100k $</span>
+                </div>
+                <div class="table__col">
+                  <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                </div>
+              </div>
+
+              <div class="table__row table__row--wrap row-main">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-tt">The Mist</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">20x</span>
+                 </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">5x</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-tt">100k $</span>
+                </div>
+                <div class="table__col">
+                  <time class="crypto-text-tt" datetime="04/09/2021">04/09/2021</time>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tabs-info__content tabs-info-five">
+      <div>
+        <p class="crypto-text-lg text-property-pos ">Earn Farm & Stake Income</p>
+        <div class="earn-wrapper">
+          <div class="filters-charts">
+            <select class="filters-charts__select" name="charts">
+              <option class="filters-charts__text" disabled selected>USDC</option>
+              <option class="filters-charts__item" value="USDC">USDC</option>
+              <option class="filters-charts__item" value="USDC">USDC</option>
+              <option class="filters-charts__item" value="USDC">USDC</option>
+              <option class="filters-charts__item" value="USDC">USDC</option>
+              <option class="filters-charts__item" value="USDC">USDC</option>
+            </select>
+          </div>
+
+          <div class="filters-charts">
+            <input type="number" class="filters-charts__select filters-charts__select-earn" name="charts" value="100000" placeholder="100000"/>
+          </div>
+
+          <div class="cost-earn-wrapper">
+            <p class="crypto-text-sm">Earn up to:</p>
+            <p class="crypto-text-lg">$84.85<span class="cost-earn">/month</span></p>
+          </div>
+        </div>
+
+        <div class="table table--earn">
+          <div class="table__scroll">
+            <div class="table__wrapper">
+              <div class="table__row table__row--head thead-row">
+                <div class="table__col table__col--main">
+                  <span class="crypto-text-sm tb-text">Source</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">APR</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">Type</span>
+                </div>
+                <div class="table__col">
+                  <span class="crypto-text-sm tb-text">Volatility</span>
+                </div>
+              </div>
+              <div class="table__body tbody-main">
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                    <div class="tokkens">
+                      <div class="tokkens__wrapper">
+                        <div class="tokkens__image">
+                          <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+                        </div>
+                        <div class="tokkens__body">
+                          <span class="tokkens__name">Name</span>
+                          <span class="tokkens__text"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">20x</span>
+                   </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col table__col--btn">
+                    <button class="btn" type="button">Next</button>
+                  </div>
+                </div>
+
+                <div class="table__row table__row--wrap row-main">
+                  <div class="table__col table__col--main">
+                    <div class="tokkens">
+                      <div class="tokkens__wrapper">
+                        <div class="tokkens__image">
+                          <img src="assets/images/icons/tokken.svg" alt="icon-tokken" />
+                        </div>
+                        <div class="tokkens__body">
+                          <span class="tokkens__name">Name</span>
+                          <span class="tokkens__text"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">20x</span>
+                   </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col">
+                    <span class="crypto-text-tt">5x</span>
+                  </div>
+                  <div class="table__col table__col--btn">
+                    <button class="btn" type="button">Next</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrap">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Docs</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Support platforms</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Audit</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">More</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__row">
+						<div class="footer__col">
+							<div class="footer__img">
+								<img src="assets/images/wbnb.svg" alt="">
+							</div>
+							<span class="footer__subtext">$0.03570</span>
+						</div>
+						<div class="footer__col">
+							<span class="footer__text">TVL</span>
+							<span class="footer__subtext">$25.87M</span>
+						</div>
+					</div>
+					<div class="social">
+						<div class="social__wrap">
+							<div class="social__img">
+								<a href="#" class="social__link">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M20.1233 3.18755C19.8633 3.19902 19.621 3.27477 19.4077 3.36099C19.2079 3.44136 18.4445 3.76878 17.2421 4.28442C16.0386 4.80052 14.4451 5.48467 12.7452 6.21567C9.34547 7.67768 5.52327 9.32338 3.56553 10.1657C3.49191 10.1973 3.23504 10.2794 2.9624 10.4922C2.68977 10.7051 2.3999 11.1461 2.3999 11.6375C2.3999 12.0338 2.58876 12.4275 2.82646 12.6625C3.06417 12.8976 3.3157 13.0137 3.53115 13.1016C4.31289 13.4206 6.73738 14.4127 7.19521 14.6C7.35634 15.0936 8.23389 17.7781 8.4374 18.436C8.57156 18.8701 8.69926 19.1421 8.86553 19.3579C8.94866 19.4658 9.0453 19.5603 9.1624 19.6344C9.20921 19.664 9.26053 19.6869 9.3124 19.7079L9.31553 19.7094C9.32748 19.7142 9.33778 19.7224 9.3499 19.7266C9.37277 19.7346 9.38806 19.7356 9.41865 19.7422C9.54051 19.7816 9.66354 19.8063 9.77334 19.8063C10.2415 19.8063 10.528 19.5485 10.528 19.5485L10.5452 19.536L12.953 17.4532L15.8733 20.2157C15.9145 20.2738 16.2979 20.8 17.1437 20.8C17.6458 20.8 18.0442 20.5481 18.2999 20.2797C18.5556 20.0114 18.715 19.7295 18.7827 19.375V19.3735C18.8461 19.0386 21.5374 5.22192 21.5374 5.22192L21.5327 5.24067C21.6115 4.88106 21.6321 4.54616 21.5452 4.21567C21.4583 3.88519 21.2292 3.56876 20.9452 3.39849C20.6612 3.22825 20.3834 3.17608 20.1233 3.18755ZM19.9733 4.85942C19.9695 4.88277 19.9762 4.87103 19.9702 4.89849L19.9687 4.90786L19.9671 4.91724C19.9671 4.91724 17.3091 18.5571 17.2108 19.0766C17.218 19.0374 17.1852 19.1154 17.1515 19.1625C17.1038 19.1297 17.0062 19.0875 17.0062 19.0875L16.9905 19.0704L13.0015 15.2969L10.1812 17.7344L11.0202 14.375C11.0202 14.375 16.2652 8.94574 16.5812 8.62974C16.8356 8.37694 16.889 8.28881 16.889 8.20161C16.889 8.08481 16.8281 8.00005 16.6921 8.00005C16.5697 8.00005 16.4051 8.11905 16.3171 8.17505C15.1706 8.90588 10.1374 11.8394 7.88115 13.1516C7.5226 13.0049 5.03163 11.9852 4.1874 11.6407C4.19379 11.6379 4.19169 11.6389 4.19834 11.636C6.1566 10.7935 9.97721 9.14778 13.3765 7.68599C15.0761 6.95509 16.6708 6.27042 17.8733 5.75474C19.0573 5.247 19.88 4.89756 19.9733 4.85942Z"
+											fill="white" />
+									</svg>
+
+								</a>
+								<a href="#" class="social__link">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M22.3999 5.54963C21.6343 5.88963 20.8119 6.11843 19.9487 6.22163C20.8303 5.69363 21.5063 4.85763 21.8247 3.86083C21.0007 4.34963 20.0871 4.70483 19.1143 4.89683C18.3359 4.06723 17.2271 3.54883 15.9999 3.54883C13.6431 3.54883 11.7327 5.46003 11.7327 7.81603C11.7327 8.15043 11.7711 8.47683 11.8431 8.78803C8.29672 8.61043 5.15272 6.91123 3.04712 4.32883C2.68072 4.95923 2.47032 5.69203 2.47032 6.47523C2.47032 7.95523 3.22312 9.26163 4.36792 10.0264C3.66872 10.004 3.01032 9.81203 2.43512 9.49283C2.43512 9.51123 2.43512 9.52803 2.43512 9.54643C2.43512 11.6144 3.90552 13.3392 5.85832 13.7304C5.50072 13.828 5.12312 13.88 4.73352 13.88C4.45912 13.88 4.19112 13.8528 3.93112 13.804C4.47432 15.4992 6.05032 16.7336 7.91752 16.768C6.45752 17.9128 4.61752 18.5952 2.61752 18.5952C2.27352 18.5952 1.93352 18.5752 1.59912 18.5352C3.48792 19.7456 5.73032 20.452 8.14072 20.452C15.9903 20.452 20.2815 13.9496 20.2815 8.31043C20.2815 8.12563 20.2775 7.94163 20.2695 7.75843C21.1039 7.15603 21.8279 6.40483 22.3999 5.54963Z"
+											fill="white" />
+									</svg>
+
+								</a>
+								<a href="#" class="social__link">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M1.43998 2.87988L3.35998 5.32395V16.9368L0.47998 20.6399H7.19998L4.31998 16.9368V6.59988L10.56 20.6399L10.559 20.6464L16.32 6.50145V18.7199L14.4 20.6399H22.56L20.64 18.7199L20.6269 5.04176L22.4944 2.88645H16.7259L12.2906 13.7971L7.43811 2.87988H1.43998Z"
+											fill="white" />
+									</svg>
+
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="assets/js/vendor.min.js" defer></script>
+	<script src="assets/js/app.js" defer></script>
+</body>
+
+</html>
